@@ -1,0 +1,10 @@
+<head>
+    {% if page.go %}
+      <link rel="canonical" href="{{ page.go }}">
+      <meta http-equiv="refresh" content="0; url="{{ page.go }}">
+      <script>location="{{ page.go }}"</script>
+    {% endif %}
+</head>
+<body>
+{{ content }}
+</body>
