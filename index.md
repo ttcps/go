@@ -1,3 +1,3 @@
 ---
-go: "ttcps.github.io"
+go: "https://ttcps.github.io"
 ---
